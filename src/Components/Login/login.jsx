@@ -19,11 +19,11 @@ function Login(){
 
     const handleClick = () => {
         if(input.email === ""){
-            alert("Email ID ako Lowda")
+            alert("Please enter Email ID")
             return
         }
         if(input.password === ""){
-            alert("Password ako Lowda")
+            alert("Please enter Password")
             return
         }
         for(let user of users){
